@@ -27,6 +27,7 @@ server {
         proxy_pass http://192.168.188.195:3000/;
         include proxy_params;
     }
+}
 ```
 The included `proxy_params:
 ```
